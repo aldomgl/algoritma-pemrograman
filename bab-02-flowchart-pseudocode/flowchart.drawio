@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="5wTq8IATRsisQZrdvJCt">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="avgK30zlNEHwP8JJdkCr-9" edge="1" parent="1" source="avgK30zlNEHwP8JJdkCr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;MULAI&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="365" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="avgK30zlNEHwP8JJdkCr-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="170" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-11" edge="1" parent="1" source="avgK30zlNEHwP8JJdkCr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="avgK30zlNEHwP8JJdkCr-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Proses&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;subtotal = harga_satuan * jumlah barang&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="275" x="287.5" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-12" edge="1" parent="1" source="avgK30zlNEHwP8JJdkCr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="avgK30zlNEHwP8JJdkCr-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;Proses&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;total = subtotal + biaya_layanan&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="275" x="287.5" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-13" edge="1" parent="1" source="avgK30zlNEHwP8JJdkCr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;div&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: rgb(255, 255, 255);&quot;&gt;OUTPUT&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Tampilkan subtotal&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: rgb(255, 255, 255);&quot;&gt;Tampilkan biaya_layanan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: rgb(255, 255, 255);&quot;&gt;T&lt;/span&gt;&lt;span style=&quot;text-decoration-line: inherit; background-color: transparent; color: rgb(255, 255, 255);&quot;&gt;ampilkan total&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="275" x="287.5" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;SELESAI&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="365" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="avgK30zlNEHwP8JJdkCr-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="INPUT&lt;br&gt;&lt;div&gt;harga_satuan (Rp)&lt;/div&gt;&lt;div&gt;jumlah_barang&lt;/div&gt;&lt;div&gt;biaya_layanan&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="275" x="287.5" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
